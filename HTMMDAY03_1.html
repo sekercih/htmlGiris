@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GuiderSoft</title>
+	<style>
+		.u_class,l_class{
+			font-size: 20px;
+			color: darkred;
+		
+	}
+	.l_class{
+			font-size: 20px;
+			color: royalblue;
+		
+	}
+	.h_class{
+		color: #f6621b;
+		background-color: black;
+		font-size: 40px;
+		text-align: center;
+	}
+	table, td,th{   
+		border:0.1rem solid red ;
+	}
+	#textarea{font-size: 35px;
+
+	}
+	</style>
+</head>
+<body>
+<h1 class="h_class">HTML 3. Ders</h1>
+<p>
+	Gel gönül bu dertten olalım ari<bR>
+		Görelim sonunda ne kılar Bari<BR>
+		Gevheri der ben de ederim zari<BR>
+		Başıma gelmedik haller mi kaldi<BR>
+
+<!-- int sayi=3 ,sayi1=23; -->
+
+<h1 class="h_class">Order List</h1>
+<ol class="l_class" type="I">
+	<li>Elma</li>
+	<li>Armut</li>
+	<li>Karpuz</li>
+</ol>
+<ol class="l_class" type="A">
+	<li>Elma</li>
+	<li>Armut</li>
+	<li>Karpuz</li>
+</ol>
+<ol class="l_class" type="a">
+	<li>Elma</li>
+	<li>Armut</li>
+	<li>Karpuz</li>
+</ol>
+<ol class="l_class" >
+	<li>Elma</li>
+	<li>Armut</li>
+	<li>Karpuz</li>
+</ol>
+<h1 class="h_class">Unordered List(Sıralı olmayan liste</h1>
+<ul class="u_class">
+	<li>Kedi</li>
+	<li>Kuzu</li>
+	<li>Deve</li>
+	<li>Tavşan</li>
+</ul>
+<ul class="u_class" type="heptagon">
+	<li>Kedi</li>
+	<li>Kuzu</li>
+	<li>Deve</li>
+	<li>Tavşan</li>
+</ul>
+<ul class="u_class" type="circle">
+	<li>Kedi</li>
+	<li>Kuzu</li>
+	<li>Deve</li>
+	<li>Tavşan</li>
+</ul>
+<ul class="u_class" type="square">
+	<li>Kedi</li>
+	<li>Kuzu</li>
+	<li>Deve</li>
+	<li>Tavşan</li>
+</ul>
+<ul class="u_class" type="pentagon">
+	<li>Kedi</li>
+	<li>Kuzu</li>
+	<li>Deve</li>
+	<li>Tavşan</li>
+</ul>
+<h1 class="h_class">Tablo Oluşturma</h1>
+<table>
+	<th>İsim</th><th>Şehir</th><th>Hayvan</th>
+	<tr><td>Kemal</td><td>Kars</td><td>Kedi</td>
+	</tr>
+	<tr><td>Bora</td><td>Bursa</td><td>Balık</td></tr>
+	<tr>
+		<td>Sanem</td><td>Sinop</td><td>Sincap</td>
+	</tr>
+</table>
+
+
+<h1 class="h_class">Tablo Oluşturma Çalışması</h1>
+<table>
+	<th>Market</th><th>Manav</th><th>Şarküteri</th><th>Apartman ismi</th>
+	<tr><td>Balmar</td><td>Yeşil Sebze</td><td>Dil Peynir</td>
+	</tr>
+	<tr><td>Bora</td><td>Bursa</td><td>Balık</td></tr>
+	<tr>
+		<td>Sanem</td><td>Sinop</td><td>Sincap</td><td>Huzur Apt</td>
+	</tr>
+</table>
+
+<h1 class="h_class">CheckBox Element</h1>
+<form>
+	<label>Ne Yemek İstersiniz</label><br>
+	<label>Balik</label>
+	<input type="CheckBox" name="menu1" id="Balik">
+	<label>Kırmızı Et</label>
+	<input type="CheckBox" name="menu2" id="Kırmızı Et">
+	<label>Vegan</label>
+	<input type="CheckBox" name="menu3" id="Vegan">
+	<input type="submit">
+</form>
+<h1 class="h_class">Radio Button</h1>
+<form>
+	<label>Cinsiyetiz nedir?</label></br>
+	<label>Erkek</label>
+	<input type="Radio" id="Erkek" name="cinsiyet" value="Erkek">
+	<label>Kadın</label>
+	<input type="Radio" id="Kadın" name="cinsiyet" value="Kadın">
+	<label>Diğer</label>
+	<input type="Radio" id="Diğer" name="cinsiyet" value="Diğer">
+	<input type="submit" >
+</form>
+
+<h1 class="h_class">TextBox Element</h1>
+<form>
+	<label>İsim Giriniz</label>
+	<input type="TextBox">
+	<input type="submit">
+</form>
+<h1 class="h_class">TextArea Element</h1>
+<label id="textarea" ">Düşüncelerinizi lütfen bize bildiriniz.</label><br>
+<textarea rows="10" cols="20">
+
+	
+</textarea><br>
+<input type="submit">
+<!--<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+HTML sizin girdiğiniz verilerdir.
+CSS nedir ?
+Cascading Style Sheets demektir.
+Javascript Sayfayı hareketlendirmek ve müşteriden veri almak için kullanılan dildir.
+
+-->
+<h1 class="h_class">Password Element</h1>
+<form>
+	<label>User Name Giriniz</label>
+	<input type="text">
+	<input type="submit"><br>
+	<label>Parola Giriniz</label>
+	<input type="password">
+	<input type="submit"><br>
+
+</form>
+
+<h1 class="h_class">Renk Element</h1>
+<form>
+	<label>Renk</label>
+	<input type="color">
+	<input type="submit">
+</form>
+<h1 class="h_class">serch Element</h1>
+<form>
+	<label>arama</label>
+	<input type="search">
+	<input type="submit">
+</form>
+</p>
+</body>
+</html>
+
